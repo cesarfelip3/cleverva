@@ -1,0 +1,120 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    design
+ * @package     rwd_default
+ * @copyright   Copyright (c) 2006-2015 X.commerce, Inc. (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+/**
+ * Template for Mage_Page_Block_Html
+ */
+?>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js">
+<!--<![endif]-->
+<head>
+<?php echo $this->getChildHtml('head') ?>
+</head>
+<body<?php echo $this->getBodyClass()?' class="'.$this->getBodyClass().'"':'' ?>>
+<?php echo $this->getChildHtml('after_body_start') ?>
+<div class="wrapper"> <?php echo $this->getChildHtml('global_notices') ?>
+  <div class="page"> <?php echo $this->getChildHtml('header') ?>
+    <div class="main-container col1-layout">
+      <div class="main"> <?php echo $this->getChildHtml('breadcrumbs') ?>
+        <div class="col-main"> <?php echo $this->getChildHtml('global_messages') ?>
+          <?php //echo $this->getChildHtml('content') ?>
+          
+          
+          <div class="homesections">
+            <div class="inner-wrapper">
+              <div class="leftsection"> <img src="<?php echo $this->getSkinUrl('images/streamline_section_graph.png');?>"/>
+                <h2> Streamline your success, in work and life. </h2>
+                <p> Clever VA is the secret weapon of successful people. Not just in work, but in life. We give you more time to focus on the big picture by taking care of the little details. Stuff like scheduling meetings, paying bills, and booking travel. As a Clever VA client, you get your very own Clever VA Assistant (VA ) — a smart, highly trained US-based point person who works remotely as your right hand and left brain. You delegate a task and your VA  is on it. </p>
+                <h6>Bills? Paid. Inbox? Cleared. Travel? Booked. </h6>
+                <button class="orange">Learn more </button>
+              </div>
+              <div class="rightsection"><img class="resp_width" src="<?php echo $this->getSkinUrl('images/streamline_section.png');?>"/></div>
+              <div class="cboth"></div>
+            </div>
+          </div>
+          
+          
+          <div class="homeblue_section">
+            <div class="inner-wrapper">
+              <h2>Get a dedicated Clever VA Assistant for just a fraction of what an in-office EA would cost!</h2>
+              <h4> By harnessing the power of collaborative consumption you can get all of the access with none of the overhead. </h4>
+              <button class="orange">Learn more </button>
+            </div>
+          </div>
+          
+          
+          <div class="homesections">
+            <div class="inner-wrapper">
+              <div class="leftsection"> <img class="resp_width" src="<?php echo $this->getSkinUrl('images/some-call-section.png');?>"/> </div>
+              <div class="rightsection talignleft"> <img  src="<?php echo $this->getSkinUrl('images/some-call-section-drawing.png');?>"/>
+                <h2>  Some call them superhuman, we call them VA s.  </h2>
+                <p> At Clever VA , we hire US-based, detail-oriented people who strive to provide our clients with the best assistance on the planet. All Clever VA Assistants go through a rigorous, multi-step vetting process that tests everything from their communication and tech skills to their creativity and resourcefulness. Thousands apply, but only the best of the best get to call themselves VA s. </p>
+                <h6>Smart, reliable, personable virtual assistants.</h6>
+                <button class="orange">Learn more </button>
+              </div>
+              <div class="cboth"></div>
+            </div>
+          </div>
+          
+          
+          <div class="homeorange_section">
+            <div class="inner-wrapper">
+              <h2> Are you ready to supercharge your productivity? </h2>
+              <h4> Handing off your time-sinking tasks to a VA  so you can be more focused is a great way to start. </h4>
+               <button class="blue">Learn more </button>
+            </div>
+          </div>
+          
+          
+          <div class="homesections">
+            <div class="inner-wrapper">
+              <div class="leftsection">
+                <h2> Give us your to-do list and get on with your love-to-do list.  </h2>
+                <p>  Get started by having your VA  set up meetings, manage your busy schedule and streamline all the information that pours into your inbox. They can help remind you of that important call, deal with the phone company, track your packages and plan your weekend getaway.  </p>
+                <h6> With your VA  handling all the small stuff, you can start focusing on what's truly important, in work and life.  </h6>
+                <button class="orange">Learn more </button>
+              </div>
+              <div class="rightsection"><img class="resp_width" src="<?php echo $this->getSkinUrl('images/to-do-list-section.png');?>"/></div>
+              <div class="cboth"></div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </div>
+    <?php echo $this->getChildHtml('footer_before') ?> <?php echo $this->getChildHtml('footer') ?> <?php echo $this->getChildHtml('global_cookie_notice') ?> <?php echo $this->getChildHtml('before_body_end') ?> </div>
+</div>
+<?php echo $this->getAbsoluteFooter() ?>
+</body>
+</html>
