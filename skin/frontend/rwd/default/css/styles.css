@@ -2192,8 +2192,8 @@
  section.planfeature .details h2{    font-size: 13px !important; min-height:69px !important  }
  } 
   @media only screen and (min-width: 601px) and (max-width: 800px){
-   section.planfeature .details h2{     min-height:74px !important  }
-   } 
+   section.planfeature .details h2{     min-height:74px !important  } 
+   }    
  
  @media only screen and (min-width: 800px) and (max-width: 810px) { .cms-home .page-header { background-image: url("../images/m-banner.jpg"); background-position: left bottom } 
  .cms-home .banner { margin: 33px 0 !important; text-align: center !important; width: 100% !important; } 
