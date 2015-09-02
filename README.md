@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Blackfire + Magento Vagrant
 ======================
 
@@ -72,3 +73,6 @@ Sample data installation can be disabled:
 
 **Why no Puppet/Chef?**
 Admittedly, Puppet and Chef are excellent solutions for predictable and documented system configurations. The emphasis for this provisioner is on unopinionated simplicity. There are some excellent Puppet / Chef Magento configurations on Github with far more bells and whistles.
+=======
+# cleverva
+>>>>>>> e0f38cd70c378495c2da165b0682c2f51a5822fc
