@@ -2,7 +2,7 @@
  * Magento
  *
  * NOTICE OF LICENSE
- *
+ * 
  * This source file is subject to the Academic Free License (AFL 3.0)
  * that is bundled with this package in the file LICENSE_AFL.txt.
  * It is also available through the world-wide-web at this URL:
@@ -29,7 +29,7 @@
 /*
  * Corrects `block` display not defined in IE 8/9.
  */
-article,
+article, 
 aside,
 details,
 figcaption,
@@ -8407,3 +8407,4 @@ div.calendar table td.button {
   color: inherit;
   text-transform: none;
 }
+ 
